@@ -1,0 +1,44 @@
+64bit INT_MUL: ticks=2, total=1040ms
+64bit INT_DIV: ticks=37, total=16294ms
+==> int: mul = 2 * add, div ~ 32 * add = 16 * mul
+==> invertieren bei Ganzzahlen nicht möglich
+==> wenn möglich Division ersetzen durch x >> floorLog2(N) == x >> 63 - Long.numberOfLeadingZeros(N) 
+    (kann bei compilezeit-konstanten 2er-Potenz-Nennern entfallen WENN Programmiersprache dies optimiert)
+
+64bit FP_MUL:   ticks=5, total=2063ms
+64bit FP_DIV:   ticks=20, total=8179ms
+64bit FP_INV:   ticks=21, total=8589ms
+64bit FP_SCALB: ticks=11, total=592ms
+==> fp:  mul = 2 * add, div ~  8 * add =  4 * mul = 2 * scalb
+==> invertieren lohnt nur wenn inverse gecached wird!
+
+64bit FP_DIV/2 (A): ticks=5, total=2063ms
+64bit FP_DIV/2 (B): ticks=5, total=2047ms
+64bit FP_DIV/3 (A): ticks=5, total=2060ms
+64bit FP_DIV/3 (B): ticks=19, total=7801ms
+==> wenn nötig Division ersetzen durch Multiplikation mit invertierter Compilezeit-Konstante oder invertierter Cache-Variable
+    alternativ Division ersetzen durch scalb(r, -floorLog2(N)) wenn Nenner eine Zweierpotenz ist
+    (kann beides bei compilezeit-konstanten 2er-Potenz-Nennern entfallen WENN Programmiersprache dies optimiert)
+
+64bit FP_ABS: ticks=1, total=173ms
+64bit FP_SQRT: ticks=21, total=970ms
+64bit FP_LOG[1/2,2]: ticks=63, total=2669ms
+64bit FP_EXP[1/2,2]: ticks=156, total=6409ms
+==> abs  = 1 tick
+==> sqrt ~ 1 div
+
+64bit FP_SIN[0,2PI]: ticks=141, total=5815ms
+64bit FP_SIN[-PI,PI]: ticks=271, total=11012ms
+64bit FP_IDX_SIN[-N/2,N-N/2]: ticks=6, total=383ms
+64bit FP_APX_SIN[0,2PI]: ticks=25, total=1152ms
+64bit FP_APX_SIN[-PI,PI]: ticks=25, total=1151ms
+==> sin ~ 32 * idx_sin ~ 8 * apx_sin
+
+64bit FP_TANH: ticks=300, total=12150ms
+64bit FP_ATAN2: ticks=221, total=9100ms
+
+32bit INT_MUL: ticks=2, total=1049ms
+32bit INT_DIV: ticks=19, total=9068ms
+32bit FP_MUL: ticks=5, total=2241ms
+32bit FP_DIV: ticks=12, total=5160ms
+32bit FP_INV: ticks=15, total=6226ms

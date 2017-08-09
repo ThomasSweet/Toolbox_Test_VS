@@ -1,0 +1,219 @@
+magnitude=1/20, vector-size=4, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   10.0µs.
+Time FFT double (VM):  0.0µs.
+Time FFT float (CC):   10.0µs.
+Time FFT double (CC):  10.0µs.
+Time FFT float (LC):   0.0µs.
+Time FFT double (RDC): 0.0µs.
+checksum: -4.6528723202534926E20
+
+magnitude=2/20, vector-size=8, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   10.0µs.
+Time FFT double (VM):  10.0µs.
+Time FFT float (CC):   10.0µs.
+Time FFT double (CC):  0.0µs.
+Time FFT float (LC):   0.0µs.
+Time FFT double (RDC): 10.0µs.
+checksum: -9.329467845519933E20
+
+magnitude=3/20, vector-size=16, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   0.0µs.
+Time FFT double (VM):  20.0µs.
+Time FFT float (CC):   10.0µs.
+Time FFT double (CC):  20.0µs.
+Time FFT float (LC):   0.0µs.
+Time FFT double (RDC): 10.0µs.
+checksum: -4.946771544326457E20
+
+magnitude=4/20, vector-size=32, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   10.0µs.
+Time FFT double (VM):  40.0µs.
+Time FFT float (CC):   30.0µs.
+Time FFT double (CC):  30.0µs.
+Time FFT float (LC):   10.0µs.
+Time FFT double (RDC): 20.0µs.
+checksum: -9.654967892759726E20
+
+magnitude=5/20, vector-size=64, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   10.0µs.
+Time FFT double (VM):  90.0µs.
+Time FFT float (CC):   50.0µs.
+Time FFT double (CC):  50.0µs.
+Time FFT float (LC):   30.0µs.
+Time FFT double (RDC): 50.0µs.
+checksum: -5.1229559089298774E20
+
+magnitude=6/20, vector-size=128, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   30.0µs.
+Time FFT double (VM):  170.0µs.
+Time FFT float (CC):   10.0µs.
+Time FFT double (CC):  90.0µs.
+Time FFT float (LC):   40.0µs.
+Time FFT double (RDC): 110.0µs.
+checksum: -5.523178260812901E19
+
+magnitude=7/20, vector-size=256, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   10.0µs.
+Time FFT double (VM):  120.0µs.
+Time FFT float (CC):   20.0µs.
+Time FFT double (CC):  200.0µs.
+Time FFT float (LC):   110.0µs.
+Time FFT double (RDC): 150.0µs.
+checksum: 3.9857618191289116E20
+
+magnitude=8/20, vector-size=512, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   30.0µs.
+Time FFT double (VM):  30.0µs.
+Time FFT float (CC):   20.0µs.
+Time FFT double (CC):  20.0µs.
+Time FFT float (LC):   30.0µs.
+Time FFT double (RDC): 20.0µs.
+checksum: -7.102112499625275E19
+
+magnitude=9/20, vector-size=1024, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   50.0µs.
+Time FFT double (VM):  30.0µs.
+Time FFT float (CC):   50.0µs.
+Time FFT double (CC):  50.0µs.
+Time FFT float (LC):   50.0µs.
+Time FFT double (RDC): 70.0µs.
+checksum: -5.50495550802149E20
+
+magnitude=10/20, vector-size=2048, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   100.0µs.
+Time FFT double (VM):  80.0µs.
+Time FFT float (CC):   110.0µs.
+Time FFT double (CC):  130.0µs.
+Time FFT float (LC):   140.0µs.
+Time FFT double (RDC): 170.0µs.
+checksum: -1.0206809014405395E21
+
+magnitude=11/20, vector-size=4096, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   180.0µs.
+Time FFT double (VM):  200.0µs.
+Time FFT float (CC):   200.0µs.
+Time FFT double (CC):  290.0µs.
+Time FFT float (LC):   340.0µs.
+Time FFT double (RDC): 240.0µs.
+checksum: -5.70239527492816E20
+
+magnitude=12/20, vector-size=8192, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   490.0µs.
+Time FFT double (VM):  670.0µs.
+Time FFT float (CC):   700.0µs.
+Time FFT double (CC):  760.0µs.
+Time FFT float (LC):   840.0µs.
+Time FFT double (RDC): 740.0µs.
+checksum: -1.2583889941973231E20
+
+magnitude=13/20, vector-size=16384, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   990.0µs.
+Time FFT double (VM):  1010.0µs.
+Time FFT float (CC):   1260.0µs.
+Time FFT double (CC):  1460.0µs.
+Time FFT float (LC):   1520.0µs.
+Time FFT double (RDC): 1460.0µs.
+checksum: -5.991276136840122E20
+
+magnitude=14/20, vector-size=32768, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   1980.0µs.
+Time FFT double (VM):  2480.0µs.
+Time FFT float (CC):   2900.0µs.
+Time FFT double (CC):  3310.0µs.
+Time FFT float (LC):   3440.0µs.
+Time FFT double (RDC): 3320.0µs.
+checksum: -1.4550813380308695E20
+
+magnitude=15/20, vector-size=65536, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   4510.0µs.
+Time FFT double (VM):  5530.0µs.
+Time FFT float (CC):   5420.0µs.
+Time FFT double (CC):  10220.0µs.
+Time FFT float (LC):   7630.0µs.
+Time FFT double (RDC): 7050.0µs.
+checksum: 3.058347645178852E20
+
+magnitude=16/20, vector-size=131072, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   11100.0µs.
+Time FFT double (VM):  12390.0µs.
+Time FFT float (CC):   14810.0µs.
+Time FFT double (CC):  18970.0µs.
+Time FFT float (LC):   18380.0µs.
+Time FFT double (RDC): 14390.0µs.
+checksum: 7.390464968384427E20
+
+magnitude=17/20, vector-size=262144, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   25510.0µs.
+Time FFT double (VM):  32970.0µs.
+Time FFT float (CC):   56080.0µs.
+Time FFT double (CC):  74490.0µs.
+Time FFT float (LC):   41120.0µs.
+Time FFT double (RDC): 42340.0µs.
+checksum: 1.1950775564006827E21
+
+magnitude=18/20, vector-size=524288, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   61930.0µs.
+Time FFT double (VM):  155230.0µs.
+Time FFT float (CC):   142770.0µs.
+Time FFT double (CC):  159420.0µs.
+Time FFT float (LC):   101290.0µs.
+Time FFT double (RDC): 89330.0µs.
+checksum: 1.6492899298878924E21
+
+magnitude=19/20, vector-size=1048576, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   291980.0µs.
+Time FFT double (VM):  367960.0µs.
+Time FFT float (CC):   364800.0µs.
+Time FFT double (CC):  403400.0µs.
+Time FFT float (LC):   477690.0µs.
+Time FFT double (RDC): 215600.0µs.
+checksum: 1.1784516441445212E21
+
+magnitude=20/20, vector-size=2097152, loop-count=100.
+Time FFT float (REF):  0.0µs.
+Time FFT double (REF): 0.0µs.
+Time FFT float (VM):   695820.0µs.
+Time FFT double (VM):  789760.0µs.
+Time FFT float (CC):   1056100.0µs.
+Time FFT double (CC):  1040730.0µs.
+Time FFT float (LC):   1144790.0µs.
+Time FFT double (RDC): 448190.0µs.
+checksum: 7.12799585532665E20
